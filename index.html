@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Contact form</title>
+</head>
+<body>
+    <div class="container">
+        <div id="heading">
+                <h1>Welcome to Zapto-Food Services!!</h1>
+                <h2>Contact Us Form</h2>
+        </div>
+    <div class="form">
+     <form action="submit.html">
+        <div class="table">
+        
+            <div class="name">
+                <label  for="name">Name:</label>
+                <input type="username" id="user" placeholder="Enter Your Name">
+            </div>
+                <div class="mail">    
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Enter mail">
+            </div>  
+            <div class="num">
+                <label>Contact Number:</label>
+                <input type="number" id="number" placeholder="Phone no.">
+            </div>
+            <div class="gen">
+                <label for="gender">Gender:</label>
+                <select name="gender" id="gender">
+                    <option value="select">Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="transgender">Transgender</option>
+                </select>
+            </div>
+            
+            <div class="dob">
+                <label for="birth">Date of Birth:</label>
+                <input type="date" name="birth" id="birth">
+            </div>
+            <div class="rating">
+                <label>Rating:</label>
+                <div id="rate">
+                <input type="radio" >
+                <label value="rating1">1</label>
+                <input type="radio" >
+                <label value="rating2">2</label>
+                <input type="radio" >
+                <label value="rating3">3</label>
+                <input type="radio" >
+                <label value="rating4">4</label>
+                <input type="radio" >
+                <label value="rating5">5</label>
+                </div>
+            </div>
+            <div class="messg">
+                <label>Enter Your message</label>
+            </div>
+            <div class="area">    
+                <textarea cols="60" rows="10" placeholder="Enter a message"></textarea>
+            </div>                     
+         
+        <div class="button">    
+            <button id="btn">Submit</button>
+        </div>
+    </div>
+    </form>
+    </div>
+</div>    
+</body>
+</html>

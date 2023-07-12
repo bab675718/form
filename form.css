@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Roboto+Condensed&family=Source+Code+Pro:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Heebo&family=Roboto+Condensed&family=Source+Code+Pro:ital,wght@1,300&display=swap');
+
+
+.container{
+    background: url('img1.jpg') no-repeat center/cover ;
+    background-position-y: -13.5vh;
+    height: 640px;
+}
+
+#heading{
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+    padding-top: 3px;
+    color: rgb(131, 164, 195);
+}
+.form{
+    display: flex;
+    /* display: block; */
+    justify-content: center;
+    border: 2px solid rgb(156, 182, 71);
+    border-radius: 20px;
+    padding-top: 30px;
+    height: 435px;
+    
+}
+.table{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.name{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+#user{
+    border-radius: 7px;
+    border: 15px;
+    border-color: rgb(183, 48, 48);
+    margin-left: 104px;
+    height: 20px;
+}
+.mail{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+#email{
+    border-radius: 7px;
+    border: 15px;
+    border-color: rgb(183, 48, 48);
+    margin-left: 106px;
+    height: 20px;
+}
+.num{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+#number{
+    border-radius: 7px;
+    border: 15px;
+    border-color: rgb(183, 48, 48);
+    margin-left: 10px;
+    height: 20px;
+}
+.gen{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+#gender{
+    border-radius: 7px;
+    border-color: rgb(183, 48, 48);
+    margin-left: 92px;
+    height: 20px;
+    border: 10px;
+}
+.dob{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+#birth{
+    border-radius: 7px;
+    border-color: rgb(183, 48, 48);
+    margin-left: 45px;
+    height: 20px;
+    border: 10px;
+}
+.rating{
+    font-size: 20px;
+    padding-bottom: 10px;
+    display: flex;
+}
+#rate{
+    margin-left: 103px; 
+}
+.messg{
+    font-size: 20px;
+    padding-bottom: 10px; 
+}
+.area textarea{
+    border-radius: 10px;
+}
+
+.button #btn{
+    border-radius: 10px;
+    border-color: rgb(216, 228, 238);
+    cursor: pointer;
+    margin-left: 10px;
+    width: 70px;
+    height: 25px;
+    transition: 1.03s;
+    transform: (4);
+}
+
+@media (min-width:664px) and (max-width:1200px) {
+    .container{
+        background-position-y: -3px;
+    }
+}
+@media (min-width:480px) and (max-width:680px){
+    .container{
+        background-position-x: -100px;
+        background-position-y: 30px;
+    }
+}

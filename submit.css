@@ -1,0 +1,11 @@
+.contain{
+    padding-top: 250px;
+}
+.submit{
+    border: 2px solid rgb(216, 197, 111);
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(113, 155, 191);
+    padding-top:10px;
+
+}
